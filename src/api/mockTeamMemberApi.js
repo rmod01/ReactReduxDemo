@@ -5,44 +5,44 @@ import delay from './delay';
 // All calls return promises.
 const teammembers = [
   {
-    id: "react-flux-building-applications",
-    title: "Building Applications in React and Flux",
-    watchHref: "http://www.pluralsight.com/courses/react-flux-building-applications",
-    ProjectCodeId: "cory-house",
-    length: "5:08",
-    category: "JavaScript"
+    id: "A0001",
+    title: "Team Member Name 1",
+    watchHref: "",
+    ProjectCodeId: "Project Code# 1",
+    length: "Developer",
+    category: "Vendor A"
   },
   {
-    id: "clean-code",
-    title: "Clean Code: Writing Code for Humans",
-    watchHref: "http://www.pluralsight.com/courses/writing-clean-code-humans",
-    ProjectCodeId: "cory-house",
-    length: "3:10",
-    category: "Software Practices"
+    id: "A0002",
+    title: "Team Member Name 2",
+    watchHref: "",
+    ProjectCodeId: "Project Code# 2",
+    length: "Tester",
+    category: "Vendor A"
   },
   {
-    id: "architecture",
-    title: "Architecting Applications for the Real World",
-    watchHref: "http://www.pluralsight.com/courses/architecting-applications-dotnet",
-    ProjectCodeId: "cory-house",
-    length: "2:52",
-    category: "Software Architecture"
+    id: "A0003",
+    title: "Team Member Name 3",
+    watchHref: "",
+    ProjectCodeId: "Project Code# 3",
+    length: "Tech Lead",
+    category: "Permanent"
   },
   {
-    id: "career-reboot-for-developer-mind",
-    title: "Becoming an Outlier: Reprogramming the Developer Mind",
-    watchHref: "http://www.pluralsight.com/courses/career-reboot-for-developer-mind",
-    ProjectCodeId: "cory-house",
-    length: "2:30",
-    category: "Career"
+    id: "A0004",
+    title: "Team Member Name 4",
+    watchHref: "",
+    ProjectCodeId: "Project Code# 4",
+    length: "Designer",
+    category: "Vendor B"
   },
   {
-    id: "web-components-shadow-dom",
-    title: "Web Component Fundamentals",
-    watchHref: "http://www.pluralsight.com/courses/web-components-shadow-dom",
-    ProjectCodeId: "cory-house",
-    length: "5:10",
-    category: "HTML5"
+    id: "A0005",
+    title: "Team Member Name 5",
+    watchHref: "",
+    ProjectCodeId: "Project Code# 5",
+    length: "People Manager",
+    category: "Permanent"
   }
 ];
 
@@ -69,9 +69,9 @@ class TeamMemberApi {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         // Simulate server-side validation
-        const minTeamMemberTitleLength = 1;
+        const minTeamMemberTitleLength = 2;
         if (teammember.title.length < minTeamMemberTitleLength) {
-          reject(`Title must be at least ${minTeamMemberTitleLength} characters.`);
+          reject(`Name must be at least ${minTeamMemberTitleLength} characters.`);
         }
 
         if (teammember.id) {

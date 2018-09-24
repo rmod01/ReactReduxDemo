@@ -48,7 +48,7 @@ class MainSection extends React.Component {
                       </p>
                       <p>End with some more description
                       </p>
-                      <a href="#" className="btn btn-primary">Learn More about CRM</a>
+                      <a href="/subdomains" className="btn btn-primary">Learn More about CRM</a>
                       <br></br>
                       <br></br>
                       <br></br>
@@ -58,7 +58,7 @@ class MainSection extends React.Component {
                       </p>
                       <p>End with some more description
                       </p>
-                      <a href="#" className="btn btn-primary">Learn More about GCM</a>
+                      <a href="/subdomains" className="btn btn-primary">Learn More about GCM</a>
                       <br></br>
                       <br></br>
                       <br></br>
@@ -68,7 +68,7 @@ class MainSection extends React.Component {
                       </p>
                       <p>End with some more description
                       </p>
-                      <a href="#" className="btn btn-primary">Learn More about DE</a>
+                      <a href="/subdomains" className="btn btn-primary">Learn More about DE</a>
                     </div>
                     <div className="col-lg-6">
                       <img src={require('./img/desk.png')} className="img-fluid"></img>

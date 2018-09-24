@@ -5,7 +5,7 @@ class AboutPage extends React.Component {
   render() {
     return(
       <div>
-        <h1>ABOUT Section</h1>
+        <h1>Engage Us</h1>
         <p>Learning UI Framework</p>
         <p1>Started with Reactjs, was already aware of Nodejs and npm.</p1>
         <p>Realized that I have to go learn a lot of other enabling tools to make the developer environment amicable :) </p>

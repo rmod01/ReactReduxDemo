@@ -7,10 +7,10 @@ const TeamMembersList = ({teammembers}) => {
      <tbody>
        <tr>
          <th>&nbsp;</th>
-         <th>Title</th>
-         <th>Author</th>
-         <th>Category</th>
-         <th>Length</th>
+         <th>Name</th>
+         <th>Project Code</th>
+         <th>Resource Provider</th>
+         <th>Role</th>
        </tr>
         {teammembers.map(teammember =>
         <TeamMemberListRow key={teammember.id} teammember={teammember}/>

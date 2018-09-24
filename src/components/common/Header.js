@@ -16,19 +16,22 @@ const Header = () => {
           		<div className="collapse navbar-collapse" id="navbarResponsive">
           			<ul className="navbar-nav ml-auto">
           				<li className="nav-item active">
-                    <IndexLink to="/" className="nav-link">Home</IndexLink>
-          				</li>
-          				<li className="nav-item">
-                  <Link to="/about" className="nav-link">About</Link>
+                    <IndexLink to="/" className="nav-link">C&E Domain</IndexLink>
           				</li>
           				<li className="nav-item">
                   <Link to="/teammembers" className="nav-link">Team</Link>
           				</li>
+                  <li className="nav-item">
+                  <Link to="/ourvision" className="nav-link">Our Vision</Link>
+                  </li>
+                  <li className="nav-item">
+                  <Link to="/achivements" className="nav-link">Achivements</Link>
+                  </li>
           				<li className="nav-item">
-          					<a className="nav-link" href="#">Team</a>
+                  <Link to="/subdomains" className="nav-link">Sub Domains</Link>
           				</li>
-          				<li className="nav-item">
-          					<a className="nav-link" href="#">Connect</a>
+                  <li className="nav-item">
+                  <Link to="/about" className="nav-link">Engage Us</Link>
           				</li>
                 </ul>
           		</div>

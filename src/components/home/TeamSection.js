@@ -21,7 +21,7 @@ class TeamSection extends React.Component {
                       <div className="card-body">
                         <h4 className="card-title">CRM</h4>
                         <p>Sales and Service focused team. Navigates and thrives with every step forward...</p>
-                        <a href="#" className="btn btn-outline-secondary">See us in more detail...</a>
+                        <a href="/teammembers" className="btn btn-outline-secondary">See us in more detail...</a>
                       </div>
                     </div>
                   </div>
@@ -31,7 +31,7 @@ class TeamSection extends React.Component {
                       <div className="card-body">
                         <h4 className="card-title">GCM</h4>
                         <p>Amazing team. Navigates and thrives with every step forward...</p>
-                        <a href="#" className="btn btn-outline-secondary">See us in more detail...</a>
+                        <a href="/teammembers" className="btn btn-outline-secondary">See us in more detail...</a>
                       </div>
                     </div>
                   </div>
@@ -41,7 +41,7 @@ class TeamSection extends React.Component {
                       <div className="card-body">
                         <h4 className="card-title">DE</h4>
                         <p>Lean and strong team. Navigates and thrives with every step forward...</p>
-                        <a href="#" className="btn btn-outline-secondary">See us in more detail...</a>
+                        <a href="/teammembers" className="btn btn-outline-secondary">See us in more detail...</a>
                       </div>
                     </div>
                   </div>

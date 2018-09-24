@@ -5,19 +5,19 @@ import delay from './delay';
 // All calls return promises.
 const projectcodes = [
   {
-    id: 'cory-house',
-    firstName: 'Cory',
-    lastName: 'House'
+    id: 'Project Code# 1',
+    firstName: 'Project Code# 1',
+    lastName: ''
   },
   {
-    id: 'scott-allen',
-    firstName: 'Scott',
-    lastName: 'Allen'
+    id: 'Project Code# 2',
+    firstName: 'Project Code# 2',
+    lastName: ''
   },
   {
-    id: 'dan-wahlin',
-    firstName: 'Dan',
-    lastName: 'Wahlin'
+    id: 'Project Code# 3',
+    firstName: 'Project Code# 3',
+    lastName: ''
   }
 ];
 
@@ -42,11 +42,11 @@ class ProjectcodeApi {
         // Simulate server-side validation
         const minprojectcodeNameLength = 3;
         if (projectcode.firstName.length < minprojectcodeNameLength) {
-          reject(`First Name must be at least ${minprojectcodeNameLength} characters.`);
+          reject(`Project Code must be at least ${minprojectcodeNameLength} characters.`);
         }
 
         if (projectcode.lastName.length < minprojectcodeNameLength) {
-          reject(`Last Name must be at least ${minprojectcodeNameLength} characters.`);
+          reject(`Description must be at least ${minprojectcodeNameLength} characters.`);
         }
 
         if (projectcode.id) {

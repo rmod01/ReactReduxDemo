@@ -16,8 +16,8 @@ class Carousel extends React.Component {
                 <div className="carousel-caption">
                   <h1 className="display-2">Customer & Engineering</h1>
                   <h3>Proud of what we do</h3>
-                  <button type="button" className="btn btn-outline-light btn-lg">OUR VISION</button>
-                  <button type="button" className="btn btn-primary btn-lg">Recent Achievements</button>
+                  <a href="/ourvision" className="btn btn-outline-light btn-lg">OUR VISION</a>
+                  <a href="/achivements" className="btn btn-primary btn-lg">Recent Achievements</a>
                 </div>
               </div>
               <div id="bgimages2" className="carousel-item">

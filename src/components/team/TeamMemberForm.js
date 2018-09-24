@@ -8,14 +8,14 @@ const TeamMemberForm = ({teammember, allProjectCodes, onSave, onChange, saving, 
       <h1>Manage Team Member</h1>
       <TextInput
         name="title"
-        label="Title"
+        label="Name"        
         value={teammember.title}
         onChange={onChange}
         error={errors.title}/>
 
       <SelectInput
         name="ProjectCodeId"
-        label="Author"
+        label="Project Code"
         value={teammember.ProjectCodeId}
         defaultOption="Select ProjectCode"
         options={allProjectCodes}
@@ -23,14 +23,14 @@ const TeamMemberForm = ({teammember, allProjectCodes, onSave, onChange, saving, 
 
       <TextInput
         name="category"
-        label="Category"
+        label="Resource Provider"
         value={teammember.category}
         onChange={onChange}
         error={errors.category}/>
 
       <TextInput
         name="length"
-        label="Length"
+        label="Role"
         value={teammember.length}
         onChange={onChange}
         error={errors.length}/>

@@ -12,7 +12,7 @@ class ConnectSection extends React.Component {
                 </div>
                 <div className="col-12 social">
                   <p>Click the below blue icon and fill the respective sub domain form to get in touch with us and avail our Portfolio services</p>
-                  <a href="#"><i className="fa fa-certificate"></i></a>
+                  <a href="/about"><i className="fa fa-certificate"></i></a>
                 </div>
               </div>
               </div>
