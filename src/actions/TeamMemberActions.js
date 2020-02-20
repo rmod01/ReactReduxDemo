@@ -7,14 +7,17 @@ export function loadTeamMembersSuccess(teammembers){
 }
 
 export function createTeamMemberSuccess(teammember){
+  debugger;
   return {type: types.CREATE_TEAMMEMBER_SUCCESS, teammember};
 }
 
 export function updateTeamMemberSuccess(teammember){
+  debugger;
   return {type: types.UPDATE_TEAMMEMBER_SUCCESS, teammember};
 }
 
 export function loadTeamMembers(){
+  debugger;
           return function(dispatch){
               return TeamMemberApi.getAllTeamMembers().then(teammembers => {
                 dispatch(loadTeamMembersSuccess(teammembers));
@@ -24,6 +27,7 @@ export function loadTeamMembers(){
 }
 
 export function saveTeamMember(teammember){
+  debugger;
           return function(dispatch){
               return TeamMemberApi.saveTeamMember(teammember).then(savedTeamMember => {
                 teammember.id ? dispatch(updateTeamMemberSuccess(savedTeamMember)) :
